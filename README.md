@@ -6,6 +6,7 @@
   * Traverse Array program code.
   * Square of all entered numbers program code.
   * Traverse string as character program code.
+
 2.Added Mathfunctions file there is a maths functions.
 3.Added Fact file there is a factorial numbers program code.
 4.Added AddSubMulDiv file there is a arithmatics operations program code.
