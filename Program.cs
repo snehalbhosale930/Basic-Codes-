@@ -7,6 +7,18 @@ namespace BasicCodes
     {
         static void Main(string[] args)
         {
+           //PatternPrinting.NumberIncreasePyramid();
+           //PatternPrinting.LeftHalfPyramid();
+           //PatternPrinting.HolloTriangePyramid();
+           //PatternPrinting.HolloAngle();
+           //PatternPrinting.RightHalfPyramid();
+           //PatternPrinting.RevrighthalfPyramid();
+           //PatternPrinting.SquareFillpattern();
+           //PatternPrinting.RevNoTriangle();
+           //PatternPrinting.RhombusPattern();
+            PatternPrinting.revHalfPyramid();
+            
+            
 
             //Fizz/buzz();
             // FindMaxIn3Numbers();
@@ -14,7 +26,17 @@ namespace BasicCodes
             //TraverseArray();
             //SquareOfAllNumbers();
             //ReverseArray();
-            TraverseStringAsChar();
+            //TraverseStringAsChar();
+            //ReverseNumber.ReverseTheNumber();
+            //MaxNumberInArray.MaxNumInArray();
+            //AddSubMulDiv.cal();
+            //Print10Numbers.Numbers();
+            //SquareOfNumbers.SquareOfNumber();
+            //EvenNumbers.EvenNumber();
+            //CountDigits.CountDigit();
+            //AdditionOfDigits.AdditionOfDigit();
+            //MulOf2Int.MultiOf2Int();
+            //Dividewithoutsign();
         }
         private static void FizzBuzz()
         {
@@ -158,8 +180,20 @@ namespace BasicCodes
                 Console.WriteLine("Given String Is Not Palindrome");
             }
         }
+        public static void Dividewithoutsign()
+        {
+          int a = 10;
+          int b = 5;
+          int result = 0;
+          for (int i = 1; i <= a; i--)
+          {
+           result = result - b;
+           }
+           Console.WriteLine(result);
+         }
     }
 }
+
 
 
 
